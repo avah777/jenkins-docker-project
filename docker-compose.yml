@@ -4,5 +4,5 @@ services:
     image: my-java-app:latest
     container_name: my-java-app
     ports:
-      - "8081:8080"  # Access via http://<EC2-IP>:8081
+      - "8081:8080"  # Access via http://54.226.201.154:8081
     restart: unless-stopped
